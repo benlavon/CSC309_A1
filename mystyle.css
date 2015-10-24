@@ -1,0 +1,103 @@
+body {
+    background-color: azure;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#unpause {
+    display: none;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+}
+
+#pause {
+    display: inline;
+    font-size: 20px;
+}
+
+#timer {
+    float: left;
+}
+
+#score {
+    float: right;
+}
+
+#startButton {
+    margin-bottom: 10px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+}
+
+#exit {
+    margin-bottom: 10px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+}
+
+#restart {
+    margin-bottom: 10px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+}
+#start {
+    font-size: 1.5em;
+    border: 1px solid;
+    margin: auto;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+    text-align: center;
+    display: block;
+    background-color: whitesmoke;
+}
+
+#game {
+    border: 1px solid;
+    margin: auto;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+    text-align: center;
+    display: none;
+    background-color: whitesmoke;
+}
+
+#exit {
+    margin-right: 10px;
+}
+
+#quote {
+    font-size: 0.5em;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+#gameOver {
+    font-size: 3.4em;
+    border: 1px solid;
+    border-top: 0px;
+    margin: auto;
+    padding: 10px;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+    height: 300px;
+    text-align: center;
+    display: none;
+    background-color: whitesmoke;
+}
+
+#myCanvas {
+    background-color: #33CC33;
+    border: 1px solid;
+    border-top: 0px;
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}

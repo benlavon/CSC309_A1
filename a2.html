@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bug Game</title>
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+        <script src="myscript.js"></script>
+    </head>
+    <body>
+        <div id="start">
+            <button id="startButton" onclick="startGame();">Start Game</button>
+            <form>
+                Level:
+                <input type="radio" name="level" id="level1" value="1" checked>1
+                <input type="radio" name="level" id="level2" value="2">2
+            </form>
+            <div>High Score: <span id="highScore"></span></div>
+        </div>
+        <div id="game">
+            <div id="timer"></div><button id="pause" onclick="pause();">&#9646;&#9646;</button><button id="unpause" onclick="unpause();">&#9654;</button><div id="score"></div>
+        </div>
+        <div id="gameOver">GAME OVER<div id="quote"></div><br><button id="exit" onclick="exit();">Exit</button><button id="restart" onclick="startGame();">Restart</button></div>
+        <canvas id="myCanvas" width="400" height="600"></canvas>
+    </body>
+</html>
